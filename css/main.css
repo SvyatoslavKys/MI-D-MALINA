@@ -1,3 +1,66 @@
-.body {
-  color: red;
+@import url(./_fonts.scss);
+@import 'node_modules/modern-normalize/modern-normalize.css';
+.container {
+  max-width: 1200px;
+  padding: 0 88px;
+  margin: 0 auto;
+}
+
+.header-container {
+  color: white;
+}
+
+.header-bg {
+  background-image: url("../Image/bg/Main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigatin-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-bg__gray {
+  background: #F4F4F4;
 }/*# sourceMappingURL=main.css.map */
