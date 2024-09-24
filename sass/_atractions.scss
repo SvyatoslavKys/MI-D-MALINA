@@ -1,0 +1,51 @@
+.section--gray{
+    background: $bg-color;
+}
+.attractions--position{
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-attractions--margin{
+    margin-bottom: 10px;
+}
+.posttitle-attractions--margin{
+    @extend %description;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &::after{
+        content: '';
+        width: 120px;
+        height: 1px;
+        background: $btn-bg-color;
+        display: block;
+        margin: 32px 0;
+    }
+}
+.icons-list{
+    display: flex;
+    
+
+    &--first{
+        margin-bottom: 96px;
+        gap: 128px;
+    }
+    &--second{
+        margin-bottom: 64px;
+        gap: 128px;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        p{
+            @extend %description;
+            font-size: 20px;
+        }
+    }
+}

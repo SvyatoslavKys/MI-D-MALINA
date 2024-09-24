@@ -1,0 +1,29 @@
+.footer-container{
+    padding: 32px 0 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.title-header-logo--black{
+    color: black;
+    &::after{
+        background: black;
+    }
+}
+.post-title--black{
+    color: black;
+    margin-bottom: 64px;
+}
+.social-list--margin{
+    gap: 5px;
+    margin-bottom: 64px;
+    li{
+        a{
+            color: black;
+        }
+    }
+}
+.social-list--margin + p{
+    margin-bottom: 16px;
+}

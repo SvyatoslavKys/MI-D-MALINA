@@ -1,3 +1,91 @@
+.container{
+    max-width: 1200px;
+    padding: 0 88px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header-container{
+    color: white;
+}
 .header-bg{
     background-image: url('../Image/bg/Main-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
 }
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--margin {
+        padding-top: 65px;
+    }
+}
+.navigatin-list{
+    display: flex;
+    gap: 16px;
+    &--margin{
+        margin-bottom: 128px;
+    }
+}
+.title-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--margin{
+        padding-bottom: 245px;
+    }
+}
+
+.title-header-logo{
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &::after{
+        content: '';
+        width: 200px;
+        margin: 8px auto;
+        background: $bg-color;
+        height: 2px;
+        display: block;
+    }
+}
+.title-header{
+    @extend %title;
+    color: white;
+    font-size: 96px;
+    &--margin{
+        margin-bottom: 20px;
+    }
+}
+.title-header-logo{
+    color: white;
+    font-size: 24px;
+}
+
+.post-title{
+    @extend %description;
+    font-size: 8px;
+    color: white;
+    &--margin{
+        margin-bottom: 32px;
+    }
+}
+.posttitle-header{
+    @extend %description;
+    font-size: 24px;
+    color: white;
+    &--margin{
+        margin-bottom: 20px;
+    }
+}
+.navigatin-item>a{
+    @extend %link-style;
+    color: white;
+}
+

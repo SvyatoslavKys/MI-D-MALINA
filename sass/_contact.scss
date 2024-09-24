@@ -1,0 +1,30 @@
+.section-contact{
+    background: $bg-color;
+}
+.Contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+}
+.contact-title--margin{
+    margin-bottom: 20px;
+}
+.link-list{
+    margin-top: 32px;
+    li{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        a{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: black;
+        }
+    }
+}
+.social-list{
+    display: flex;
+    gap: 32px;
+}

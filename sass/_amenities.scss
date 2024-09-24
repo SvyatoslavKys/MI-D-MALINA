@@ -1,0 +1,69 @@
+.amenities-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 110px 0;
+}
+.title-amenities--margin{
+    margin-bottom: 10px;
+}
+.posttitle-amenities--margin{
+    @extend %description;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--second{
+        margin-bottom: 20px;
+    }
+    
+    &::after{
+        content: '';
+        width: 120px;
+        height: 1px;
+        background: $btn-bg-color;
+        display: block;
+        margin: 32px 0;
+    }
+}
+.posttitle-amenities--second{
+    @extend %description;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.amenities-icons-list{
+    display: flex;
+    gap: 16px;
+
+    &--one{
+        margin-bottom: 16px;
+        gap: 16px;
+    }
+    &--two{
+        margin-bottom: 74px;
+        gap: 16px;
+    }
+    &--tree{
+        margin-bottom: 16px;
+        gap: 16px;
+    }
+    &--four{
+        margin-bottom: 16px;
+        gap: 16px;
+    }
+    li{
+        position: relative;
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @extend %description;
+            font-size: 20px;
+            color: white;
+        }
+    }
+}

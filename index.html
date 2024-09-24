@@ -3,84 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header-bg">
-        <div class="header-container container">
-            <div class="header-box">
+        <div class="header-container container" id="header-container">
+            <div class="header-box header-box--margin">
                 <img src="./Image/icons/Switch.svg" alt="logo">
-                <h3 class="header-box-title">
+                <h3 class="title-header-logo">
                     MIÓD MALINA
                 </h3>
-                <p class="header-box-posttitle">
+                <p class="post-title post-title--margin">
                     OSADA ISTEBNA
                 </p>
                 <nav class="navigatin">
-                    <ul class="navigatin-list">
-                        <li class="navigatin-item"><a href="">Strona Główna</a></li>
-                        <li class="navigatin-item"><a href="">O nas</a></li>
-                        <li class="navigatin-item"><a href="">Atrakcje</a></li>
-                        <li class="navigatin-item"><a href="">Udogodnenia</a></li>
+                    <ul class="navigatin-list navigatin-list--margin">
+                        <li class="navigatin-item"><a href="#header-container">Strona Główna</a></li>
+                        <li class="navigatin-item"><a href="#about-container">O nas</a></li>
+                        <li class="navigatin-item"><a href="#section--gray">Atrakcje</a></li>
+                        <li class="navigatin-item"><a href="#amenities-container">Udogodnenia</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="title-box">
-                <h1 class="title-box-header">MIÓD MALINA</h1>
-                <b class="title-box-text">OSADA ISTEBNA</b>
-                <button class="title-box-btn button">ZOBACZ WIĘCEJ</button>
+            <div class="title-box title-box--margin">
+                <h1 class="title-header title-header--margin">MIÓD MALINA</h1>
+                <b class="posttitle-header posttitle-header--margin">OSADA ISTEBNA</b>
+                <button class="button">ZOBACZ WIĘCEJ</button>
             </div>
         </div>
     </header>
     <section>
-        <div class="about-container container">
-            <h3 class="about-header">O NAS</h3>
-            <b class="about-text">TROCHĘ O NAS, DOMKACH I NASZEJ OSADZIE</b>
+        <div class="about-container container" id="about-container">
+            <h3 class="title about-title--margin">O NAS</h3>
+            <b class="post-title about-text">TROCHĘ O NAS, DOMKACH I NASZEJ OSADZIE</b>
+            <div class="description-box">
             <p class="about-deskription">Osada Miód Malina powstała w 2023 roku. Do dyspozycji naszych gości mamy obecnie 4 domy, których wynajem uruchomiliśmy na koniec 2023 roku. Osada jest całkowicie nowa i czeka aby ugościć i rozpieścić swoich gości..
-
+            </div>
             </p>
-            <button class="about-btn">CZYTAJ DALEJ</button>
+            <button class="button">CZYTAJ DALEJ</button>
         </div>
     </section>
-    <section class="section-bg__gray">
-        <div class="attractions-container container">
-            <h3>ATTRACTIONS</h3>
-            <b>W POBLIŻU ZNAJDUJĄ SIĘ..</b>
-            <ul>
+    <section class="section--gray" id="section--gray">
+        <div class="attractions--position container">
+            <h3 class="title title-attractions--margin">ATRAKCJE</h3>
+            <b class="post-title posttitle-attractions--margin">W POBLIŻU ZNAJDUJĄ SIĘ..</b>
+            <ul class="icons-list icons-list--first">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Park wodny.svg" alt="">
                     <p>Park wodny</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Kuligi.svg" alt="">
                     <p>Kuligi</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Stoki.svg" alt="">
                     <p>Stoki</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Resorty SPA.svg" alt="">
                     <p>Resorty SPA</p>
                 </li>
             </ul>
-            <ul>
+            <ul class="icons-list icons-list--second">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Park linowy.svg" alt="">
                     <p>Park linowy</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Resturacje i Karczmy.svg" alt="">
                     <p>Resturacje i Karczmy</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Trójtyk.svg" alt="">
                     <p>Trójtyk</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/icons/attractions-icons/Szlaki turystyczne.svg" alt="">
                     <p>Szlaki turystyczne</p>
                 </li>
             </ul>
@@ -89,44 +90,44 @@
         </div>
     </section>
     <section>
-        <div class="amenities-container container">
-            <h3>UDOGODNIENIA</h3>
-            <b>CZEKAJĄ NA WAS..</b>
-            <b>W NASZEJ OSADZIE CZEKAJĄ NA NASZYCH GOŚCI</b>
-            <ul>
+        <div class="amenities-container container" id="amenities-container">
+            <h3 class="title title-amenities--margin ">UDOGODNIENIA</h3>
+            <b class="post-title posttitle-amenities--margin">CZEKAJĄ NA WAS..</b>
+            <b class="post-title posttitle-amenities--second">W NASZEJ OSADZIE CZEKAJĄ NA NASZYCH GOŚCI</b>
+            <ul class="amenities-icons-list amenities-icons-list--one ">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/NARCIARNIA.jpg" alt="">
                     <p>NARCIARNIA</p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/PLAC ZABAW DLA DZIECI.jpg" alt="">
                     <p>PLAC ZABAW
                         DLA DZIECI
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/DUŻE TARASY.jpg" alt="">
                     <p>DUŻE TARASY
                         Z WYPOSAŻENIEM
                     </p>
                 </li>
             </ul>
-            <ul>
+            <ul class="amenities-icons-list amenities-icons-list--two">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/PRYWATNE BALIE.jpg" alt="">
                     <p>PRYWATNE BALIE
                         OGRZEWANE 
                         DREWNEM
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/DUŻA WIATA Z PALENISKIEM.jpg" alt="">
                     <p>DUŻA WIATA
                         Z PALENISKIEM
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/evry-house/PRYWATNE GRILLE ORAZ DREWNO DO BALII.jpg" alt="">
                     <p>PRYWATNE
                         GRILLE
                         ORAZ DREWNO
@@ -134,45 +135,45 @@
                     </p>
                 </li>
             </ul>
-            <b>W KAŻDYM DOMKU GOŚCIE MAJĄ DO DYSPOZYCJI</b>
-            <ul>
+            <b class="post-title posttitle-amenities--second">W KAŻDYM DOMKU GOŚCIE MAJĄ DO DYSPOZYCJI</b>
+            <ul class="amenities-icons-list amenities-icons-list--tree">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/TARAS Z WIDOKIEM.jpg" alt="">
                     <p>TARAS Z
                         WIDOKIEM
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/ZESTAW RĘCZNIKÓW I SZLAFROKÓW.jpg" alt="">
                     <p>ZESTAW
                         RĘCZNIKÓW
                         I SZLAFROKÓW
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/PLYTĘ INDUKCYJNĄ, PIEKARNIK I ZMYWARKĘ.jpg" alt="">
                     <p>PLYTĘ INDUKCYJNĄ,
                         PIEKARNIK I
                         ZMYWARKĘ
                     </p>
                 </li>
             </ul>
-            <ul>
+            <ul class="amenities-icons-list amenities-icons-list--four">
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/SMART TV Z WIFI.jpg" alt="">
                     <p>SMART TV
                         Z WIFI
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/KOMINEK TYPU KOZA Z DREWNEM.jpg" alt="">
                     <p>KOMINEK
                         TYPU KOZA
                         Z DREWNEM
                     </p>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./Image/card/EKPRES DO KAWY NA ZIARNA.jpg" alt="">
                     <p>EKPRES DO
                         KAWY NA
                         ZIARNA
@@ -181,54 +182,56 @@
             </ul>
         </div>
     </section>
-    <section class="section-bg__gray">
+    <section class="section-contact">
         <div class="Contact-container container">
-            <h3>KONTAKT</h3>
-            <b>POZOSTAŃMY W KONTAKCIE..</b>
-            <ul>
+            <h3 class="title contact-title--margin">KONTAKT</h3>
+            <b class="posttitle-amenities--margin">POZOSTAŃMY W KONTAKCIE..</b>
+            <ul class="link-list">
                 <li>
                     <a href="">
-                        <img src="" alt="">
+                        <img src="./Image/icons/link-icons/phone-icon.svg" alt="">
                         <p>+48 664 769 936</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="" alt="">
+                        <img src="./Image/icons/link-icons/email-icon.svg" alt="">
                         <p>miodmalina.istebna@gmail.com</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="" alt="">
+                        <img src="./Image/icons/link-icons/planet-icon.svg" alt="">
                         <p>Jasnowice 2024, 43-470 Istebna</p>
                     </a>
                 </li>
             </ul>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+            <ul class="social-list">
+                <li><a href=""><img src="./Image/icons/social-icons/Social Icons fb.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icons/social-icons/Button b.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icons/social-icons/Social Icons insta.svg" alt=""></a></li>
             </ul>
         </div>
     </section>
     <footer>
         <div class="footer-container container">
+            <div class="header-box header-box--margin">
             <img src="./Image/icons/Switch.svg" alt="logo">
-            <h3 class="header-box-title">
+            <h3 class="title-header-logo title-header-logo--black">
                 MIÓD MALINA
             </h3>
-            <p class="header-box-posttitle">
+            <p class="post-title post-title--margin post-title--black">
                 OSADA ISTEBNA
             </p>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+        </div>
+            <ul class="social-list social-list--margin">
+                <li><a href=""><img src="./Image/icons/social-icons/Social Icons fb.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icons/social-icons/Button b.svg" alt=""></a></li>
+                <li><a href=""><img src="./Image/icons/social-icons/Social Icons insta.svg" alt=""></a></li>
             </ul>
-            <ul>
-                <li><a href="">+48 664 769 936</a></li>
-                <li><a href="">miodmalina.istebna@gmail.com</a></li>
+            <ul class="social-list social-list--margin">
+                <li><a href="">+48 664 769 936 /</a></li>
+                <li><a href="">miodmalina.istebna@gmail.com /</a></li>
                 <li><a href="">Jasnowice 2024, 43-470 Istebna</a></li>
             </ul>
             <p>Miód Malina © 2024  </p>
