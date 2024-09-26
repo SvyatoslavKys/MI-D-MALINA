@@ -27,4 +27,7 @@
 .social-list{
     display: flex;
     gap: 32px;
+    &-mb{
+        margin-bottom: 64px;
+    }
 }

@@ -649,6 +649,9 @@ html {
   display: flex;
   gap: 32px;
 }
+.social-list-mb {
+  margin-bottom: 64px;
+}
 
 .footer-container {
   padding: 32px 0 64px 0;
