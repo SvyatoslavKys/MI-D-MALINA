@@ -587,8 +587,18 @@ html {
 }
 @media (max-width: 769px) {
   .icons-list {
+    text-align: center;
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 769px) {
+  img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
 
