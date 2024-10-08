@@ -8,7 +8,7 @@
     color: white;
 }
 .navigatin{
-    @media ( max-width: 425px) { 
+    @media ( max-width: 768px) { 
         display: none;
     }
 }
@@ -21,10 +21,10 @@
     padding: 0;
     border: none;
     background: transparent;
-    @media ( max-width: 426px) { 
+    @media ( max-width: 769px) { 
                 display: block;
             }
-            @media ( min-width: 426px) { 
+            @media ( min-width: 769px) { 
                 display: none;
             }
 }
@@ -59,6 +59,7 @@
     li{
         a{
             color: black;
+            font-size: 25px;
         }
     }
     

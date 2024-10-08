@@ -276,7 +276,7 @@ html {
   color: white;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .navigatin {
     display: none;
   }
@@ -294,12 +294,12 @@ html {
   border: none;
   background: transparent;
 }
-@media (max-width: 426px) {
+@media (max-width: 769px) {
   .menu-button {
     display: block;
   }
 }
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .menu-button {
     display: none;
   }
@@ -346,6 +346,7 @@ html {
 }
 .nav-list-mob li a {
   color: black;
+  font-size: 25px;
 }
 
 .header-bg {
@@ -584,7 +585,7 @@ html {
 .icons-list li p {
   font-size: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .icons-list {
     display: block;
     margin: 0 auto;
