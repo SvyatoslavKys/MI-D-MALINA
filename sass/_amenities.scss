@@ -64,6 +64,15 @@
             @extend %description;
             font-size: 20px;
             color: white;
+            @media ( max-width: 768px) { 
+                font-size: 15px;
+            }
         }
     }
+    @media ( max-width: 768px) { 
+        display: block;
+        margin: 0 auto;
+
+    }
+   
 }

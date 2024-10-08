@@ -512,6 +512,12 @@ html {
 .icons-list li p {
   font-size: 20px;
 }
+@media (max-width: 768px) {
+  .icons-list {
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 .amenities-container {
   display: -webkit-box;
@@ -596,6 +602,17 @@ html {
           transform: translate(-50%, -50%);
   font-size: 20px;
   color: white;
+}
+@media (max-width: 768px) {
+  .amenities-icons-list li p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .amenities-icons-list {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .section-contact {
