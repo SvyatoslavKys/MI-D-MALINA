@@ -26,9 +26,13 @@
     }
 }
 .description-box{
-    width: 587px;
+    max-width: 587px;
     margin-bottom: 32px;
     hyphens: manual;
+    @media ( max-width: 768px) { 
+        
+        
+    }
 }
 .about-deskription{
     @extend %description;
