@@ -27,6 +27,11 @@
 .social-list{
     display: flex;
     gap: 32px;
+    @media ( max-width: 768px) { 
+        flex-direction: column;
+        
+        
+    }
     &-mb{
         margin-bottom: 64px;
     }
