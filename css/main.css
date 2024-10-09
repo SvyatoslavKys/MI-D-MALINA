@@ -265,6 +265,15 @@ html {
   color: black;
 }
 
+@media (max-width: 769px) {
+  img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
 .container {
   max-width: 1200px;
   padding: 0 88px;
@@ -590,15 +599,6 @@ html {
     text-align: center;
     display: block;
     margin: 0 auto;
-  }
-}
-
-@media (max-width: 769px) {
-  img {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
   }
 }
 

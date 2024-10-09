@@ -45,3 +45,12 @@
     color: black;
 }
 
+img{
+    @media ( max-width: 769px) { 
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        
+    }
+}
